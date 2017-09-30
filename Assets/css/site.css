@@ -71,6 +71,7 @@ footer {
 
 div.title {
 	height: 60px;
+	font-size: 18px;
 	background-color: #4aaaa5;
 	color: #efeee7;
 	text-align: center;
@@ -78,17 +79,43 @@ div.title {
 	padding-top: 15px;
 }
 
-div.game:nth-child(odd){
-	margin-right: 37px;
-}
-
-div.game:nth-child(1n+4){
+.margin-fix {
 	margin-bottom: 37px;
 }
 
-div .main-bio img {
-	width: 275px;
+.main-portfolio {
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-color: #cccccc;
+}
+
+div .game {
 	height: 200px;
+	padding-top: 125px;
+	background-size: cover;
+	background-position: center center;
+}
+
+div.game.mind{
+	background-image: url(../images/mind.jpeg);
+}
+
+div.game.horse{
+	background-image: url(../images/images.jpeg);
+}
+
+div.game.crochet{
+	background-image: url(../images/170px-Crohook.jpg);
+}
+
+div.game.books{
+	background-image: url(../images/download.jpeg);
+}
+
+div.game.improve{
+	background-image: url(../images/improve.jpeg);
 }
 
 
