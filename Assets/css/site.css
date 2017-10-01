@@ -34,6 +34,7 @@ h3 {
     background-color: #ffffff;
     padding: 30px;
     border-color: #cccccc;
+    margin-bottom: 120px;
 }
 
 .main-bio p {
@@ -56,7 +57,7 @@ h3 {
 	height: 60px;
 }
 
-footer {
+.footer {
 	border-top: 8px;
 	border-top-style: solid;
 	border-top-color: #4aaaa5;
@@ -83,12 +84,14 @@ div.title {
 	margin-bottom: 37px;
 }
 
+
 .main-portfolio {
     border-style: solid;
     border-width: 1px;
     background-color: #ffffff;
     padding: 30px;
     border-color: #cccccc;
+    margin-bottom: 120px;
 }
 
 div .game {
@@ -119,7 +122,9 @@ div.game.improve{
 }
 
 
-
+.none {
+	display: none;
+}
 
 
 

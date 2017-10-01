@@ -20,25 +20,32 @@
 <body background="assets/images/concrete_seamless.png">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-1"></div>
-			<div class="col-md-7">
+			
+			<div class="col-md-8">
 				
 				<div class="main-bio">
 					<h2>Contact</h2>
 					<hr>
+					
 					<form class="contact-form">
-						Name:<br>
-		  				<input type="text" placeholder="John Smith"><br>
-		  				Email:<br>
-		 				<input type="text" placeholder="example@gmail.com"><br>
-		 				Message:<br>
-		 				<textarea name="Message"></textarea>
-		 				<button>Submit</button>
+					<div class="form-group">
+					    <label for="name">Name:</label>
+					    <input type="name" class="form-control" placeholder="John Smith">
+					</div>
+					<div class="form-group">	
+					    <label for="email">Email:</label>
+					    <input type="email" class="form-control" placeholder="example@gmail.com">
+					</div>
+					<div class="form-group">
+					  <label>Message:</label><br>
+					  <textarea class="form-control" rows="10"></textarea>
+					</div>  
+					  <button type="submit" class="btn btn-default">Submit</button>
 					</form>
 				</div>
 				
 			</div>
-			<div class="col-md-2">
+			<div class="col-md-4">
 				
 				<div class="contact-info">
 			
@@ -58,7 +65,7 @@
 				</div>
 				
 			</div>
-			<div class="col-md-2"></div>
+			
 		</div>
 	</div>	
 	<div class="row">
